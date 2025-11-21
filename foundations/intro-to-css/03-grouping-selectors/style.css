@@ -14,7 +14,7 @@ div {
 .button1,
 .button2 {
     font-size: 28px;
-    font-family: 'Helvetica';
+    font-family: 'Helvetica', 'Times New Roman', 'sans-serif';
 }
 
 .button1 {
