@@ -24,3 +24,39 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* Changes made to CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  padding: 32px 0;
+}
+
+.plants {
+  padding: 0 52px 52px;
+  margin-bottom: 52px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 52px;
+  }
+
+.img-cap {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  text-align: center;
+}
