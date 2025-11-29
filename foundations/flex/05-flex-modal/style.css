@@ -72,6 +72,31 @@ button.cancel {
 
 .modal {
   display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+.icon {
+  flex-shrink: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.text {
+  margin-bottom: 16px;
+}
+
+/* Original assignment solutions
+
+.modal {
+  display: flex;
   justify-content: space-evenly;
   padding: 13px;
   gap: 13px;
@@ -97,3 +122,4 @@ button.cancel {
   font-weight: bold;
   font-size: 20px;
 }
+*/
